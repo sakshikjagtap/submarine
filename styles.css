@@ -1,0 +1,51 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+*{
+  margin: 0;
+}
+
+.sky > div{
+  height:4em;
+}
+
+.sky > .first{
+  background-color: hsl(210deg 100% 81%);
+}
+
+.sky > .second{
+  background-color: hsl(210deg 100% 85%);
+}
+
+.sky > .third{
+  background-color: hsl(210deg 100% 87%);
+}
+
+.sky > .forth{
+  background-color: hsl(210deg 100% 91%);
+}
+
+.sky > .fifth{
+  background-color: hsl(210deg 100% 94%);
+}
+
+.ocean{
+  font-size: 150px;
+  height:1.5em;
+  text-align: center;
+  background-color: hsl(210deg 100% 56% / 72%);
+}
+
+.ocean > .submarine{
+  color: hsl(210deg 133% 21% / 68%);
+  text-shadow:1px 1px hsl(210deg 100% 99% / 58%);
+}
+
+.submarine > .tower{
+  position: relative;
+  bottom: 0.4em;
+}
+
